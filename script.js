@@ -41,14 +41,9 @@ removeTabButton.addEventListener("click", function() {
     const activeTabIndex = Array.from(tabs).indexOf(activeTab);
     activeTab.remove();
 
-    /*if (activeTabIndex === tabs.length - 1 && activeTabIndex !== 0) {
+    if (activeTabIndex === tabs.length - 1 && activeTabIndex !== 0) {
         tabs[activeTabIndex - 1].setAttribute("data-status", "active");
     } else {
-        tabs[activeTabIndex === 0 ? 1 : 0].setAttribute("data-status", "active");
-    }*/
-    if (activeTabIndex === 0) {
-        tabs[0].setAttribute("data-status", "active");
-    } else {
-        tabs[activeTabIndex - 1].setAttribute("data-status", "active");
+        tabs[activeTabIndex === 0 ? 0 : activeTabIndex].setAttribute("data-status", "active");
     }
 });
