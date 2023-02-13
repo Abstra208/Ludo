@@ -49,7 +49,9 @@ removeTabButton.addEventListener("click", function() {
 });
 //MENU SVG
 const menuIcon = document.querySelector('#menu-icon');
+const navtabs = document.querySelector(".tabs")
 
 menuIcon.addEventListener("click", function() {
   menuIcon.classList.toggle('close');
+  navtabs.classList.toggle("display");
 });

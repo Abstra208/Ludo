@@ -34,6 +34,7 @@
     transform: translate(10px, -3px);
 }
 .navbar .tabs{
+    display: none;
     z-index: -1;
     position: absolute;
     top: 150%;
@@ -42,6 +43,9 @@
     flex-direction: column;
     background-color: lightgray;
     margin-bottom: 10px;
+}
+.navtabs .tabs.display{
+    display: contents;
 }
 
 .navbar .tabs button {
