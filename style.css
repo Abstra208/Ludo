@@ -31,7 +31,7 @@
 }
 .navbar .navtabs svg {
     cursor: pointer;
-    transform: translate(10px, -3px);
+    transform: translate(90%, -3px);
 }
 .navbar .tabs{
     display: none;
@@ -78,12 +78,6 @@
 
 #menu-bar-1, #menu-bar-2, #menu-bar-3 {
     transition: all 0.3s ease-in-out;
-  }
-  #menu-icon{
-    transition: 0.5 ease-in-out;
-  }
-  #menu-icon.close{
-    transform: translate(90%);
   }
 
   #menu-icon.close #menu-bar-1 {
