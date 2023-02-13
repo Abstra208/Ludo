@@ -29,6 +29,9 @@
 .navbar .navtabs svg {
     transform: translate(6px, -3px);
 }
+.navbar .tabs{
+    margin-left: 10px;
+}
 
 .navbar .tabs button {
     background-color: transparent;
