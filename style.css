@@ -59,7 +59,7 @@
   }
   
   #menu-icon.close #menu-bar-1 {
-    transform: rotate(45deg) translate(-3px, 3px);
+    transform: rotate(45deg) translate(6px, -10px);
   }
   
   #menu-icon.close #menu-bar-2 {
@@ -67,5 +67,5 @@
   }
   
   #menu-icon.close #menu-bar-3 {
-    transform: rotate(-45deg) translate(-3px, -3px);
+    transform: rotate(-45deg) translate(-15px);
   }  
