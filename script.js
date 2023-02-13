@@ -50,6 +50,6 @@ removeTabButton.addEventListener("click", function() {
 //MENU SVG
 const menuIcon = document.getElementById('menu-icon');
 
-menuIcon.addEventListener('click', () => {
+menuIcon.addEventListener("click", function() {
   menuIcon.classList.toggle('close');
 });
