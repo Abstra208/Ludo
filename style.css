@@ -34,11 +34,13 @@
     transform: translate(10px, -3px);
 }
 .navbar .tabs{
+    z-index: -1;
     position: absolute;
-    top: 7%;
-    left: 0%;
-    font-size: large;
-    margin-left: 10px;
+    top: 150%;
+    align-items: start;
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: lightgray;
 }
 
 .navbar .tabs button {
