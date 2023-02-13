@@ -26,8 +26,11 @@
     align-items: center;
 }
 
+.navbar .navtabs{
+    position: relative;
+}
 .navbar .navtabs svg {
-    transform: translate(6px, -3px);
+    transform: translate(10px, -3px);
 }
 .navbar .tabs{
     margin-left: 10px;
