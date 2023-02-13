@@ -41,7 +41,6 @@
     z-index: -1;
     position: absolute;
     top: 150%;
-    align-items: start;
     margin-left: 50px;
     flex-direction: column;
     background-color: lightgray;
