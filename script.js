@@ -12,9 +12,7 @@ Array.from(tabs).forEach(tab => {
 const navtabs = document.querySelector(".tabs")
 const addTabButton = document.getElementById("addTab");
 addTabButton.addEventListener("click", function() {
-    if(navtabs.className === ""){
-        
-    } else {
+    if(navtabs.className === "display"){
         const tabs = document.querySelector(".tabs");
         const newTab = document.createElement("button");
         newTab.innerText = "Onglet " + (tabs.children.length + 1);
@@ -33,7 +31,6 @@ addTabButton.addEventListener("click", function() {
             });
         });
     }
-
 });
 //REMOVE TAB
 const removeTabButton = document.getElementById("removeTab");
