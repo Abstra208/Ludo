@@ -33,18 +33,19 @@
     transform: translate(90%, -3px);
 }
 .navbar .tabs{
-    display: none;
     position: absolute;
-    left: -200%;
+    top: 150%;
+    left: -500%;
+    flex-direction: column;
     transition: 0.5 ease-in-out;
 }
 .navtabs .tabs.display{
+    transition: 0.5 ease-in-out;
     display: flex;
     z-index: -1;
     position: absolute;
     top: 150%;
-    left: 100%;
-    margin-left: 50px;
+    left: 0%;
     flex-direction: column;
     background-color: lightgray;
     margin-bottom: 10px;
