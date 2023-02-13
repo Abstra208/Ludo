@@ -19,7 +19,8 @@
     padding: 5px;
 }
 
-.navbar .tabs {
+.navbar .tabs,
+.navbar .navtabs {
     display: flex;
     justify-content: center;
     align-items: center;
