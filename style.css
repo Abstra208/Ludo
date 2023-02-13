@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.navbar .navtabs svg {
+    transform: translate(6px, -3px);
+}
+
 .navbar .tabs button {
     background-color: transparent;
     border: none;
