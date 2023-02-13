@@ -35,7 +35,7 @@
 .navbar .tabs{
     display: none;
     position: absolute;
-    left: -100%;
+    left: -200%;
     transition: 0.5 ease-in-out;
 }
 .navtabs .tabs.display{
