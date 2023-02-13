@@ -37,7 +37,7 @@
     display: none;
 }
 .navtabs .tabs.display{
-    display: contents flex;
+    display: flex;
     z-index: -1;
     position: absolute;
     top: 150%;
@@ -79,7 +79,13 @@
 #menu-bar-1, #menu-bar-2, #menu-bar-3 {
     transition: all 0.3s ease-in-out;
   }
-  
+  #menu-icon{
+    transition: 0.5 ease-in-out;
+  }
+  #menu-icon.close{
+    transform: translate(90%);
+  }
+
   #menu-icon.close #menu-bar-1 {
     transform: rotate(45deg) translate(6px, -10px);
   }
