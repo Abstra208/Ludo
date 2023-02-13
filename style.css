@@ -30,9 +30,11 @@
     position: relative;
 }
 .navbar .navtabs svg {
+    cursor: pointer;
     transform: translate(10px, -3px);
 }
 .navbar .tabs{
+    font-size: large;
     margin-left: 10px;
 }
 
