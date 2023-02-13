@@ -55,6 +55,7 @@
 
 .navbar .tabs button {
     background-color: transparent;
+    width: 100px;
     border: none;
     margin: 2px 10px;
     padding: 10px 20px 10px 20px;
