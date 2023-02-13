@@ -54,13 +54,12 @@
 }
 
 
-
 #menu-bar-1, #menu-bar-2, #menu-bar-3 {
     transition: all 0.3s ease-in-out;
   }
   
   #menu-icon.close #menu-bar-1 {
-    transform: rotate(45deg) translate(-5px, 5px);
+    transform: rotate(45deg) translate(-3px, 3px);
   }
   
   #menu-icon.close #menu-bar-2 {
@@ -68,6 +67,5 @@
   }
   
   #menu-icon.close #menu-bar-3 {
-    transform: rotate(-45deg) translate(-5px, -5px);
-  }
-  
+    transform: rotate(-45deg) translate(-3px, -3px);
+  }  
