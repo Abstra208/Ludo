@@ -1,4 +1,4 @@
-/*TAB CLICK*/
+//TAB CLICK
 const tabs = document.querySelectorAll(".tabs button");
 Array.from(tabs).forEach(tab => {
     tab.addEventListener("click", function(){
@@ -8,7 +8,7 @@ Array.from(tabs).forEach(tab => {
         this.setAttribute("data-status", "active");
     });
 });
-/*ADD TAB*/
+//ADD TAB
 const addTabButton = document.getElementById("addTab");
 addTabButton.addEventListener("click", function() {
     const tabs = document.querySelector(".tabs");
@@ -29,7 +29,7 @@ addTabButton.addEventListener("click", function() {
         });
     });
 });
-/*REMOVE TAB*/
+//REMOVE TAB
 const removeTabButton = document.getElementById("removeTab");
 removeTabButton.addEventListener("click", function() {
     const tabs = document.querySelectorAll(".tabs button");
@@ -46,4 +46,10 @@ removeTabButton.addEventListener("click", function() {
     } else {
         tabs[activeTabIndex === 0 ? 0 : activeTabIndex].setAttribute("data-status", "active");
     }
+});
+//MENU SVG
+const menuIcon = document.getElementById('menu-icon');
+
+menuIcon.addEventListener('click', () => {
+  menuIcon.classList.toggle('close');
 });

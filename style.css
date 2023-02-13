@@ -52,3 +52,20 @@
     text-align: center;
     cursor: pointer;
 }
+
+
+#menu-bar-1, #menu-bar-2, #menu-bar-3 {
+    transition: all 0.3s ease-in-out;
+}
+
+#menu-icon.close .menu-bar-1 {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-icon.close .menu-bar-2 {
+    opacity: 0;
+}
+
+#menu-icon.close .menu-bar-3 {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
