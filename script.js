@@ -16,13 +16,13 @@ addTabButton.addEventListener("click", function() {
     newTab.innerText = "Onglet " + (tabs.children.length + 1);
     tabs.appendChild(newTab);
     
-    Array.from(tabs.children).forEach(function(tab) {
+    Array.from(tabs.button).forEach(function(tab) {
         tab.setAttribute("data-status", "inactive");
 
     newTab.setAttribute("data-status", "active");
 
     tab.addEventListener("click", function() {
-        Array.from(tabs.children).forEach(function(tab) {
+        Array.from(tabs.button).forEach(function(tab) {
                 tab.setAttribute("data-status", "inactive");
             });
             this.setAttribute("data-status", "active");
