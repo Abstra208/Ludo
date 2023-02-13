@@ -34,6 +34,9 @@
     transform: translate(10px, -3px);
 }
 .navbar .tabs{
+    position: absolute;
+    top: 7%;
+    left: 0%;
     font-size: large;
     margin-left: 10px;
 }
