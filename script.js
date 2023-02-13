@@ -9,25 +9,31 @@ Array.from(tabs).forEach(tab => {
     });
 });
 //ADD TAB
+const navtabs = document.querySelector(".tabs")
 const addTabButton = document.getElementById("addTab");
 addTabButton.addEventListener("click", function() {
-    const tabs = document.querySelector(".tabs");
-    const newTab = document.createElement("button");
-    newTab.innerText = "Onglet " + (tabs.children.length + 1);
-    tabs.appendChild(newTab);
-    
-    Array.from(tabs.children).forEach(function(tab) {
-        tab.setAttribute("data-status", "inactive");
-
-    newTab.setAttribute("data-status", "active");
-
-    tab.addEventListener("click", function() {
+    if(navtabs.className === ""){
+        
+    } else {
+        const tabs = document.querySelector(".tabs");
+        const newTab = document.createElement("button");
+        newTab.innerText = "Onglet " + (tabs.children.length + 1);
+        tabs.appendChild(newTab);
+        
         Array.from(tabs.children).forEach(function(tab) {
-                tab.setAttribute("data-status", "inactive");
+            tab.setAttribute("data-status", "inactive");
+
+        newTab.setAttribute("data-status", "active");
+
+        tab.addEventListener("click", function() {
+            Array.from(tabs.children).forEach(function(tab) {
+                    tab.setAttribute("data-status", "inactive");
+                });
+                this.setAttribute("data-status", "active");
             });
-            this.setAttribute("data-status", "active");
         });
-    });
+    }
+
 });
 //REMOVE TAB
 const removeTabButton = document.getElementById("removeTab");
