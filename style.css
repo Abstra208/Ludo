@@ -85,18 +85,18 @@
 }
 
 
-#menu-bar-1, #menu-bar-2, #menu-bar-3 {
+#bar1, #bar2, #bar3 {
     transition: all 0.3s ease-in-out;
-  }
+}
 
-  #menu-icon.close #menu-bar-1 {
+#menu.close #bar1 {
     transform: rotate(45deg) translate(6px, -10px);
-  }
-  
-  #menu-icon.close #menu-bar-2 {
+}
+
+#menu.close #bar2 {
     opacity: 0;
-  }
-  
-  #menu-icon.close #menu-bar-3 {
-    transform: rotate(-45deg) translate(-15px);
-  }  
+}
+
+#menu.close #bar3 {
+    transform: rotate(-45deg) translate(-15px); 
+}
