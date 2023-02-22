@@ -9,7 +9,7 @@ Array.from(tabs).forEach(tab => {
     });
 });
 //MENU SVG
-const menuIcon = document.querySelector('#menu-icon');
+const menuIcon = document.querySelector('#menu');
 const navtabs = document.querySelector(".tabs")
 
 menuIcon.addEventListener("click", function() {
