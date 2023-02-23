@@ -6,7 +6,6 @@ body {
 header {
 	background-color: #333;
 	color: #fff;
-	padding: 10px;
     height: 4vh;
 }
 
@@ -35,7 +34,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
-	height: calc(100vh - (4vh + 10px)); /* 50px est la hauteur de la barre de navigation */
+	height: calc(100vh - 4vh); /* 50px est la hauteur de la barre de navigation */
 }
 
 .left-section {
