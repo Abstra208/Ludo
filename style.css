@@ -40,12 +40,12 @@ main {
 
 .left-section {
 	background-color: #555;
-	height: 100%; /* prend toute la hauteur de la grille parente */
+	height: 100%;
 }
 
 .right-section {
 	background-color: #ccc;
-	height: 100%; /* prend toute la hauteur de la grille parente */
+	height: 100%;
 }
 .right-section iframe {
     width: 100%;
