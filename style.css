@@ -1,21 +1,3 @@
-body{
-    display: grid;
-}
-header{
-    display: flex;
-    height: 5vh;
-    width: 100vw;
-    background-color: rgb(172, 172, 172);
-    position: absolute;
-    top: 0;
-    left: 0;
-    justify-content: space-around;
-    align-items: center;
-}
-.tabs{
-
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -52,15 +34,17 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
-	padding: 20px;
+	height: calc(100vh - 50px); /* 50px est la hauteur de la barre de navigation */
 }
 
 .left-section {
 	background-color: #f2f2f2;
 	padding: 20px;
+	height: 100%; /* prend toute la hauteur de la grille parente */
 }
 
 .right-section {
 	background-color: #f2f2f2;
 	padding: 20px;
+	height: 100%; /* prend toute la hauteur de la grille parente */
 }
