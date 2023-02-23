@@ -34,7 +34,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
-	height: calc(100vh - 50px); /* 50px est la hauteur de la barre de navigation */
+	height: calc(100vh - 60px); /* 50px est la hauteur de la barre de navigation */
 }
 
 .left-section {
