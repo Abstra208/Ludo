@@ -3,9 +3,14 @@ body{
 }
 header{
     display: flex;
-    height: 15vh;
+    height: 10vh;
     width: 100vw;
     background-color: rgb(172, 172, 172);
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
 }
 .tabs{
 
