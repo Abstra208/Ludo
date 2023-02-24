@@ -76,7 +76,7 @@ main {
 	grid-template-columns: 30% 70%;
 }
 
-.sidebar {
+#sidebar {
 	background-color: #555;
 	height: 100%;
 }
