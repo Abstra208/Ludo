@@ -13,7 +13,6 @@ body {
     --hamburger-gap: 6px;
     --foreground: #333;
     --background: white;
-    --hamberger-margin: 8px;
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
@@ -25,9 +24,6 @@ body {
     flex-direction: column;
     gap: var(--hamburger-gap);
     width: max-content;
-    position: absolute;
-    top: var(--hamberger-margin);
-    left: var(--hamberger-margin);
     z-index: 10;
     cursor: pointer;
 }
@@ -67,6 +63,12 @@ body {
     border-radius: 100%;
     transform-origin: left center;
     transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing);
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 main {
